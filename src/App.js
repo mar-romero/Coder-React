@@ -1,14 +1,13 @@
 import NavBar from "./components/NavBar";
 import Main from "./components/Main";
-import Card from "./components/Card";
+import Rutas from "./routes";
 
 function App() {
 
 
   return (
     <Main>
-      <NavBar />
-      <Card/>
+      <Rutas/>
     </Main>
   );
 }
